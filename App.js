@@ -1,12 +1,15 @@
-import React from 'react';
-import { Provider } from 'react-redux';
-import store from './redux/store';
-import CounterPage from './pages/CounterPage'
+import './App.css';
+import MainPage from "./pages/mainPage/MainPage";
+import TaskList from "./components/TaskList";
 
-const App = () => (
-    <Provider store={store}>
-        <CounterPage/>
-    </Provider>
-);
+function App() {
+  return (
+    <div className="App">
+        <MainPage/>
+        <TaskList/>
+      {/*<ContactsPage/>*/}
+    </div>
+  );
+}
 
 export default App;

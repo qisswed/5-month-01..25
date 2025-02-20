@@ -1,0 +1,29 @@
+.card {
+  width: 300px;
+  border: 1px solid green;
+  padding: 10px;
+  text-align: center;
+  background: #f0f0f0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  border-radius: 8px;
+  width: 70px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
